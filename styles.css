@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+section {
+    width: 60%;
+    height: 600px;
+    background-color: honeydew;
+    border-radius: 20px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li::before {
+    content:'>'
+}
