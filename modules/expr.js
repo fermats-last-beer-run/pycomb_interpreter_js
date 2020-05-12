@@ -1,5 +1,4 @@
 import {comma_separated} from "./module/utils.js"
-import {abs, add, subtract, multiply, mod} from "./package/dist/math.js";
 
 class Expr {
     /* This is the big one, huh?
