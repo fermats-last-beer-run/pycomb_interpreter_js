@@ -1,4 +1,4 @@
-import {buffer} from './module/buffer.js'
+import {Buffer} from './module/buffer.js'
 import * as expr from './module/expr.js'
 
 const lower_alphabet = "abcdefghijklmnopqrstuvwxyz";

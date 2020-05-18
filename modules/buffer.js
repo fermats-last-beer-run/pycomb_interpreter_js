@@ -29,3 +29,5 @@ class Buffer {
         }
     }
 }
+
+export {Buffer}

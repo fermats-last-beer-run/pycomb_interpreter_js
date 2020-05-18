@@ -3,3 +3,5 @@ function comma_separated(xs) {
 
     return xs.join();
 }
+
+export {comma_separated}

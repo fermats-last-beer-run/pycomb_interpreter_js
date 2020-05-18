@@ -1,5 +1,6 @@
 import {comma_separated} from "./module/utils.js"
-import {abs, add, subtract, multiply, mod} from "./package/dist/math.js";
+
+
 
 class Expr {
     /* This is the big one, huh?
@@ -211,3 +212,6 @@ let global_env = {
     sub: PrimitiveFunction(operator.subtract),
     truediv: PrimitiveFunction(operator.divide),
 }
+
+export {global_env, PrimitiveFunction,LambdaFunction,Value, Number,
+CallExpr, LambdaExpr, Name, Literal, Expr}
